@@ -1,0 +1,266 @@
+/* Typography */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  color: #444;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #3b5998;
+  text-decoration: none;
+}
+
+/* Layout */
+header {
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #3b5998;
+}
+
+main {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type=text], input[type=password] {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2d4373;
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Additional styling for Register page */
+
+.register-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.register-form h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.register-form .input-container {
+  margin-bottom: 30px;
+}
+
+.register-form input[type="text"], .register-form
+/* Form styling */
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #555;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button[type="submit"] {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2d4373;
+}
+
+/* General styling */
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s;
+  padding: 10px;
+}
+
+.navigation li a:hover {
+  color: #3b5998;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+  text-align: center;
+}

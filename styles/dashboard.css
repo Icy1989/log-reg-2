@@ -1,0 +1,154 @@
+/* Header Styles */
+header {
+  background-color: #292929;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Navigation Styles */
+.navigation {
+  background-color: #F9C784;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin-right: 10px;
+}
+
+.navigation button, .navigation a {
+  color: #fff;
+  background-color: #f54c0c;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation button:hover, .navigation a:hover {
+  background-color: #f77b36;
+}
+
+/* Content Styles */
+main {
+  margin: 20px;
+}
+
+.content {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+.evaluate-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.evaluate-content input[type="text"],
+.evaluate-content button[type="submit"] {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+.evaluate-content input[type="text"]:hover,
+.evaluate-content button[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #ECECEC;
+  color: #2F4F4F;
+}
+
+.summary-content p {
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: #2F4F4F;
+  list-style: none;
+}
+
+.navigation li {
+  margin: 0;
+}
+
+.navigation li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation li a:hover {
+  background-color: #fff;
+  color: #2F4F4F;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #2F4F4F;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation button:hover {
+  background-color: #fff;
+  color: #2F4F4F;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navigation li {
+    margin: 10px 0;
+  }
+}
